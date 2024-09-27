@@ -1,0 +1,679 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		20189F962B28BFE900E99D37 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20189F952B28BFE900E99D37 /* AppDelegate.swift */; };
+		20189F982B28BFE900E99D37 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20189F972B28BFE900E99D37 /* SceneDelegate.swift */; };
+		20189F9A2B28BFE900E99D37 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20189F992B28BFE900E99D37 /* ViewController.swift */; };
+		20189F9D2B28BFE900E99D37 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20189F9B2B28BFE900E99D37 /* Main.storyboard */; };
+		20189FA02B28BFE900E99D37 /* ConstitutionOfIndia.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 20189F9E2B28BFE900E99D37 /* ConstitutionOfIndia.xcdatamodeld */; };
+		20189FA22B28BFEA00E99D37 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 20189FA12B28BFEA00E99D37 /* Assets.xcassets */; };
+		20189FA52B28BFEA00E99D37 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20189FA32B28BFEA00E99D37 /* LaunchScreen.storyboard */; };
+		20189FB02B28C33900E99D37 /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20189FAF2B28C33900E99D37 /* ViewController2.swift */; };
+		20189FB22B28C7D700E99D37 /* ViewController1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20189FB12B28C7D700E99D37 /* ViewController1.swift */; };
+		20189FB42B28C97300E99D37 /* DashBoardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20189FB32B28C97300E99D37 /* DashBoardViewController.swift */; };
+		201960DF2B2DAF07004079AC /* SchedulesApiVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 201960DE2B2DAF07004079AC /* SchedulesApiVC.swift */; };
+		201960E12B2DC56B004079AC /* AmendmentsApiVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 201960E02B2DC56B004079AC /* AmendmentsApiVC.swift */; };
+		20B95F642B2B7E5F00BAAD6D /* SchedulesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20B95F632B2B7E5F00BAAD6D /* SchedulesVC.swift */; };
+		20B95F662B2B820F00BAAD6D /* SchudulesCVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20B95F652B2B820F00BAAD6D /* SchudulesCVC.swift */; };
+		20B95F6A2B2B87CC00BAAD6D /* AmendentsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20B95F692B2B87CC00BAAD6D /* AmendentsVC.swift */; };
+		20B95F6D2B2B88A100BAAD6D /* AmendentsCVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20B95F6C2B2B88A100BAAD6D /* AmendentsCVC.swift */; };
+		20B95F6F2B2B8A8B00BAAD6D /* NewsArcticleVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20B95F6E2B2B8A8B00BAAD6D /* NewsArcticleVC.swift */; };
+		20B95F712B2B8AA600BAAD6D /* CaseStudyVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20B95F702B2B8AA600BAAD6D /* CaseStudyVC.swift */; };
+		20B95F732B2B8ACB00BAAD6D /* NewsArticleCVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20B95F722B2B8ACB00BAAD6D /* NewsArticleCVC.swift */; };
+		20B95F752B2B8DFE00BAAD6D /* CaseStudyCVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20B95F742B2B8DFE00BAAD6D /* CaseStudyCVC.swift */; };
+		20FDC2A52B29D6E2008A2704 /* dashboardCVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20FDC2A42B29D6E2008A2704 /* dashboardCVC.swift */; };
+		20FDC2A82B2A040C008A2704 /* PreambleVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20FDC2A72B2A040C008A2704 /* PreambleVC.swift */; };
+		20FDC2AD2B2A0BCD008A2704 /* headerTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20FDC2AB2B2A0BCD008A2704 /* headerTVC.swift */; };
+		20FDC2AE2B2A0BCD008A2704 /* headerTVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 20FDC2AC2B2A0BCD008A2704 /* headerTVC.xib */; };
+		20FDC2B12B2A2BFD008A2704 /* PartsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20FDC2B02B2A2BFD008A2704 /* PartsVC.swift */; };
+		72017A322B4A94B1008B3B01 /* CaseStudyAPIVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72017A312B4A94B1008B3B01 /* CaseStudyAPIVC.swift */; };
+		72017A352B4AA542008B3B01 /* SideMenuTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72017A342B4AA542008B3B01 /* SideMenuTVC.swift */; };
+		722C885F2B4941AB002A25CE /* ArticleTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 722C885D2B4941AB002A25CE /* ArticleTVC.swift */; };
+		722C88602B4941AB002A25CE /* ArticleTVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 722C885E2B4941AB002A25CE /* ArticleTVC.xib */; };
+		722C88632B49438C002A25CE /* PartsCVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 722C88612B49438B002A25CE /* PartsCVC.swift */; };
+		722C88642B49438C002A25CE /* PartsCVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 722C88622B49438C002A25CE /* PartsCVC.xib */; };
+		722C88662B4944CB002A25CE /* ArticleVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 722C88652B4944CB002A25CE /* ArticleVC.swift */; };
+		722C88682B496D79002A25CE /* NewsArcticleApiVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 722C88672B496D79002A25CE /* NewsArcticleApiVC.swift */; };
+		7237DCC12B4BE19F00FB61AD /* AboutVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7237DCC02B4BE19F00FB61AD /* AboutVC.swift */; };
+		7237DCC42B4BEB2F00FB61AD /* NotesVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7237DCC32B4BEB2F00FB61AD /* NotesVc.swift */; };
+		72405CBD2B4BCD0500F8951E /* NotificationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72405CBC2B4BCD0500F8951E /* NotificationVC.swift */; };
+		72405CBF2B4BCD5700F8951E /* NoticationTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72405CBE2B4BCD5700F8951E /* NoticationTVC.swift */; };
+		72CB671D2B47F67000E1DE0A /* SideMenuVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72CB671C2B47F67000E1DE0A /* SideMenuVC.swift */; };
+		72F806F82B4BF6690010499D /* NotesTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72F806F72B4BF6690010499D /* NotesTVC.swift */; };
+		8A513F2D32DE21E60EA5ABE1 /* Pods_ConstitutionOfIndia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F342AB8F6DEC16F53DC469B /* Pods_ConstitutionOfIndia.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		20189F922B28BFE900E99D37 /* ConstitutionOfIndia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ConstitutionOfIndia.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		20189F952B28BFE900E99D37 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		20189F972B28BFE900E99D37 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		20189F992B28BFE900E99D37 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		20189F9C2B28BFE900E99D37 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		20189F9F2B28BFE900E99D37 /* ConstitutionOfIndia.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ConstitutionOfIndia.xcdatamodel; sourceTree = "<group>"; };
+		20189FA12B28BFEA00E99D37 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		20189FA42B28BFEA00E99D37 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		20189FA62B28BFEA00E99D37 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		20189FAF2B28C33900E99D37 /* ViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
+		20189FB12B28C7D700E99D37 /* ViewController1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController1.swift; sourceTree = "<group>"; };
+		20189FB32B28C97300E99D37 /* DashBoardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashBoardViewController.swift; sourceTree = "<group>"; };
+		201960DE2B2DAF07004079AC /* SchedulesApiVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchedulesApiVC.swift; sourceTree = "<group>"; };
+		201960E02B2DC56B004079AC /* AmendmentsApiVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmendmentsApiVC.swift; sourceTree = "<group>"; };
+		20B95F632B2B7E5F00BAAD6D /* SchedulesVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchedulesVC.swift; sourceTree = "<group>"; };
+		20B95F652B2B820F00BAAD6D /* SchudulesCVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchudulesCVC.swift; sourceTree = "<group>"; };
+		20B95F692B2B87CC00BAAD6D /* AmendentsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmendentsVC.swift; sourceTree = "<group>"; };
+		20B95F6C2B2B88A100BAAD6D /* AmendentsCVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmendentsCVC.swift; sourceTree = "<group>"; };
+		20B95F6E2B2B8A8B00BAAD6D /* NewsArcticleVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsArcticleVC.swift; sourceTree = "<group>"; };
+		20B95F702B2B8AA600BAAD6D /* CaseStudyVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaseStudyVC.swift; sourceTree = "<group>"; };
+		20B95F722B2B8ACB00BAAD6D /* NewsArticleCVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsArticleCVC.swift; sourceTree = "<group>"; };
+		20B95F742B2B8DFE00BAAD6D /* CaseStudyCVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaseStudyCVC.swift; sourceTree = "<group>"; };
+		20FDC2A42B29D6E2008A2704 /* dashboardCVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dashboardCVC.swift; sourceTree = "<group>"; };
+		20FDC2A72B2A040C008A2704 /* PreambleVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreambleVC.swift; sourceTree = "<group>"; };
+		20FDC2AB2B2A0BCD008A2704 /* headerTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = headerTVC.swift; sourceTree = "<group>"; };
+		20FDC2AC2B2A0BCD008A2704 /* headerTVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = headerTVC.xib; sourceTree = "<group>"; };
+		20FDC2B02B2A2BFD008A2704 /* PartsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PartsVC.swift; sourceTree = "<group>"; };
+		363E389CCA4E036BC326CEEE /* Pods-ConstitutionOfIndia.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ConstitutionOfIndia.debug.xcconfig"; path = "Target Support Files/Pods-ConstitutionOfIndia/Pods-ConstitutionOfIndia.debug.xcconfig"; sourceTree = "<group>"; };
+		6F342AB8F6DEC16F53DC469B /* Pods_ConstitutionOfIndia.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ConstitutionOfIndia.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		72017A312B4A94B1008B3B01 /* CaseStudyAPIVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaseStudyAPIVC.swift; sourceTree = "<group>"; };
+		72017A342B4AA542008B3B01 /* SideMenuTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuTVC.swift; sourceTree = "<group>"; };
+		722C885D2B4941AB002A25CE /* ArticleTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleTVC.swift; sourceTree = "<group>"; };
+		722C885E2B4941AB002A25CE /* ArticleTVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ArticleTVC.xib; sourceTree = "<group>"; };
+		722C88612B49438B002A25CE /* PartsCVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PartsCVC.swift; sourceTree = "<group>"; };
+		722C88622B49438C002A25CE /* PartsCVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PartsCVC.xib; sourceTree = "<group>"; };
+		722C88652B4944CB002A25CE /* ArticleVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleVC.swift; sourceTree = "<group>"; };
+		722C88672B496D79002A25CE /* NewsArcticleApiVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsArcticleApiVC.swift; sourceTree = "<group>"; };
+		7237DCC02B4BE19F00FB61AD /* AboutVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutVC.swift; sourceTree = "<group>"; };
+		7237DCC32B4BEB2F00FB61AD /* NotesVc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotesVc.swift; sourceTree = "<group>"; };
+		72405CBC2B4BCD0500F8951E /* NotificationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationVC.swift; sourceTree = "<group>"; };
+		72405CBE2B4BCD5700F8951E /* NoticationTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoticationTVC.swift; sourceTree = "<group>"; };
+		72CB671C2B47F67000E1DE0A /* SideMenuVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuVC.swift; sourceTree = "<group>"; };
+		72F806F72B4BF6690010499D /* NotesTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotesTVC.swift; sourceTree = "<group>"; };
+		DA2665E079E772093564B9D8 /* Pods-ConstitutionOfIndia.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ConstitutionOfIndia.release.xcconfig"; path = "Target Support Files/Pods-ConstitutionOfIndia/Pods-ConstitutionOfIndia.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		20189F8F2B28BFE900E99D37 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A513F2D32DE21E60EA5ABE1 /* Pods_ConstitutionOfIndia.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		193A56CF31CF695C1BAD546E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				363E389CCA4E036BC326CEEE /* Pods-ConstitutionOfIndia.debug.xcconfig */,
+				DA2665E079E772093564B9D8 /* Pods-ConstitutionOfIndia.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		20189F892B28BFE900E99D37 = {
+			isa = PBXGroup;
+			children = (
+				20189F942B28BFE900E99D37 /* ConstitutionOfIndia */,
+				20189F932B28BFE900E99D37 /* Products */,
+				193A56CF31CF695C1BAD546E /* Pods */,
+				974B5409C014B6D9381A5502 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		20189F932B28BFE900E99D37 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				20189F922B28BFE900E99D37 /* ConstitutionOfIndia.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		20189F942B28BFE900E99D37 /* ConstitutionOfIndia */ = {
+			isa = PBXGroup;
+			children = (
+				20FDC2A32B29D697008A2704 /* dashBoard */,
+				72017A332B4A9E10008B3B01 /* sideMenu */,
+				20189F952B28BFE900E99D37 /* AppDelegate.swift */,
+				20189F972B28BFE900E99D37 /* SceneDelegate.swift */,
+				20189FAE2B28C2FE00E99D37 /* view controller */,
+				20189F9B2B28BFE900E99D37 /* Main.storyboard */,
+				20189FA12B28BFEA00E99D37 /* Assets.xcassets */,
+				20189FA32B28BFEA00E99D37 /* LaunchScreen.storyboard */,
+				20189FA62B28BFEA00E99D37 /* Info.plist */,
+				20189F9E2B28BFE900E99D37 /* ConstitutionOfIndia.xcdatamodeld */,
+			);
+			path = ConstitutionOfIndia;
+			sourceTree = "<group>";
+		};
+		20189FAE2B28C2FE00E99D37 /* view controller */ = {
+			isa = PBXGroup;
+			children = (
+				20189F992B28BFE900E99D37 /* ViewController.swift */,
+				20189FB12B28C7D700E99D37 /* ViewController1.swift */,
+				20189FAF2B28C33900E99D37 /* ViewController2.swift */,
+			);
+			path = "view controller";
+			sourceTree = "<group>";
+		};
+		20B95F562B2AF76000BAAD6D /* Schedules */ = {
+			isa = PBXGroup;
+			children = (
+				20B95F632B2B7E5F00BAAD6D /* SchedulesVC.swift */,
+				20B95F652B2B820F00BAAD6D /* SchudulesCVC.swift */,
+				201960DE2B2DAF07004079AC /* SchedulesApiVC.swift */,
+			);
+			path = Schedules;
+			sourceTree = "<group>";
+		};
+		20B95F672B2B874F00BAAD6D /* News Article */ = {
+			isa = PBXGroup;
+			children = (
+				20B95F6E2B2B8A8B00BAAD6D /* NewsArcticleVC.swift */,
+				20B95F722B2B8ACB00BAAD6D /* NewsArticleCVC.swift */,
+				722C88672B496D79002A25CE /* NewsArcticleApiVC.swift */,
+			);
+			path = "News Article";
+			sourceTree = "<group>";
+		};
+		20B95F682B2B877700BAAD6D /* Amendments */ = {
+			isa = PBXGroup;
+			children = (
+				20B95F692B2B87CC00BAAD6D /* AmendentsVC.swift */,
+				20B95F6C2B2B88A100BAAD6D /* AmendentsCVC.swift */,
+				201960E02B2DC56B004079AC /* AmendmentsApiVC.swift */,
+			);
+			path = Amendments;
+			sourceTree = "<group>";
+		};
+		20B95F6B2B2B882100BAAD6D /* Case Study */ = {
+			isa = PBXGroup;
+			children = (
+				20B95F702B2B8AA600BAAD6D /* CaseStudyVC.swift */,
+				20B95F742B2B8DFE00BAAD6D /* CaseStudyCVC.swift */,
+				72017A312B4A94B1008B3B01 /* CaseStudyAPIVC.swift */,
+			);
+			path = "Case Study";
+			sourceTree = "<group>";
+		};
+		20FDC2A32B29D697008A2704 /* dashBoard */ = {
+			isa = PBXGroup;
+			children = (
+				20189FB32B28C97300E99D37 /* DashBoardViewController.swift */,
+				20FDC2A42B29D6E2008A2704 /* dashboardCVC.swift */,
+				20FDC2A62B2A037D008A2704 /* Preamble */,
+				20FDC2AF2B2A2BDA008A2704 /* parts */,
+				20B95F562B2AF76000BAAD6D /* Schedules */,
+				20B95F682B2B877700BAAD6D /* Amendments */,
+				20B95F672B2B874F00BAAD6D /* News Article */,
+				20B95F6B2B2B882100BAAD6D /* Case Study */,
+			);
+			path = dashBoard;
+			sourceTree = "<group>";
+		};
+		20FDC2A62B2A037D008A2704 /* Preamble */ = {
+			isa = PBXGroup;
+			children = (
+				20FDC2A72B2A040C008A2704 /* PreambleVC.swift */,
+				20FDC2AB2B2A0BCD008A2704 /* headerTVC.swift */,
+				20FDC2AC2B2A0BCD008A2704 /* headerTVC.xib */,
+			);
+			path = Preamble;
+			sourceTree = "<group>";
+		};
+		20FDC2AF2B2A2BDA008A2704 /* parts */ = {
+			isa = PBXGroup;
+			children = (
+				20FDC2B02B2A2BFD008A2704 /* PartsVC.swift */,
+				722C88652B4944CB002A25CE /* ArticleVC.swift */,
+				722C88612B49438B002A25CE /* PartsCVC.swift */,
+				722C88622B49438C002A25CE /* PartsCVC.xib */,
+				722C885D2B4941AB002A25CE /* ArticleTVC.swift */,
+				722C885E2B4941AB002A25CE /* ArticleTVC.xib */,
+			);
+			path = parts;
+			sourceTree = "<group>";
+		};
+		72017A332B4A9E10008B3B01 /* sideMenu */ = {
+			isa = PBXGroup;
+			children = (
+				72CB671C2B47F67000E1DE0A /* SideMenuVC.swift */,
+				72017A342B4AA542008B3B01 /* SideMenuTVC.swift */,
+				7237DCC22B4BEAE600FB61AD /* notes */,
+				7237DCBF2B4BE11E00FB61AD /* About */,
+				72BEB43F2B4BC92C0075EB4A /* notifaction */,
+			);
+			path = sideMenu;
+			sourceTree = "<group>";
+		};
+		7237DCBF2B4BE11E00FB61AD /* About */ = {
+			isa = PBXGroup;
+			children = (
+				7237DCC02B4BE19F00FB61AD /* AboutVC.swift */,
+			);
+			path = About;
+			sourceTree = "<group>";
+		};
+		7237DCC22B4BEAE600FB61AD /* notes */ = {
+			isa = PBXGroup;
+			children = (
+				7237DCC32B4BEB2F00FB61AD /* NotesVc.swift */,
+				72F806F72B4BF6690010499D /* NotesTVC.swift */,
+			);
+			path = notes;
+			sourceTree = "<group>";
+		};
+		72BEB43F2B4BC92C0075EB4A /* notifaction */ = {
+			isa = PBXGroup;
+			children = (
+				72405CBC2B4BCD0500F8951E /* NotificationVC.swift */,
+				72405CBE2B4BCD5700F8951E /* NoticationTVC.swift */,
+			);
+			path = notifaction;
+			sourceTree = "<group>";
+		};
+		974B5409C014B6D9381A5502 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6F342AB8F6DEC16F53DC469B /* Pods_ConstitutionOfIndia.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		20189F912B28BFE900E99D37 /* ConstitutionOfIndia */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 20189FA92B28BFEA00E99D37 /* Build configuration list for PBXNativeTarget "ConstitutionOfIndia" */;
+			buildPhases = (
+				C9BB7BF770E00F4C467D4E79 /* [CP] Check Pods Manifest.lock */,
+				20189F8E2B28BFE900E99D37 /* Sources */,
+				20189F8F2B28BFE900E99D37 /* Frameworks */,
+				20189F902B28BFE900E99D37 /* Resources */,
+				9F435CD971BBDCE15A462DFD /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ConstitutionOfIndia;
+			productName = ConstitutionOfIndia;
+			productReference = 20189F922B28BFE900E99D37 /* ConstitutionOfIndia.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		20189F8A2B28BFE900E99D37 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					20189F912B28BFE900E99D37 = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+				};
+			};
+			buildConfigurationList = 20189F8D2B28BFE900E99D37 /* Build configuration list for PBXProject "ConstitutionOfIndia" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 20189F892B28BFE900E99D37;
+			productRefGroup = 20189F932B28BFE900E99D37 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				20189F912B28BFE900E99D37 /* ConstitutionOfIndia */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		20189F902B28BFE900E99D37 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20FDC2AE2B2A0BCD008A2704 /* headerTVC.xib in Resources */,
+				722C88602B4941AB002A25CE /* ArticleTVC.xib in Resources */,
+				20189FA52B28BFEA00E99D37 /* LaunchScreen.storyboard in Resources */,
+				722C88642B49438C002A25CE /* PartsCVC.xib in Resources */,
+				20189FA22B28BFEA00E99D37 /* Assets.xcassets in Resources */,
+				20189F9D2B28BFE900E99D37 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		9F435CD971BBDCE15A462DFD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ConstitutionOfIndia/Pods-ConstitutionOfIndia-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ConstitutionOfIndia/Pods-ConstitutionOfIndia-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ConstitutionOfIndia/Pods-ConstitutionOfIndia-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C9BB7BF770E00F4C467D4E79 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ConstitutionOfIndia-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		20189F8E2B28BFE900E99D37 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				201960DF2B2DAF07004079AC /* SchedulesApiVC.swift in Sources */,
+				20B95F732B2B8ACB00BAAD6D /* NewsArticleCVC.swift in Sources */,
+				20B95F712B2B8AA600BAAD6D /* CaseStudyVC.swift in Sources */,
+				72F806F82B4BF6690010499D /* NotesTVC.swift in Sources */,
+				72017A322B4A94B1008B3B01 /* CaseStudyAPIVC.swift in Sources */,
+				20B95F752B2B8DFE00BAAD6D /* CaseStudyCVC.swift in Sources */,
+				20189FB22B28C7D700E99D37 /* ViewController1.swift in Sources */,
+				722C88662B4944CB002A25CE /* ArticleVC.swift in Sources */,
+				7237DCC12B4BE19F00FB61AD /* AboutVC.swift in Sources */,
+				72405CBF2B4BCD5700F8951E /* NoticationTVC.swift in Sources */,
+				20FDC2A52B29D6E2008A2704 /* dashboardCVC.swift in Sources */,
+				7237DCC42B4BEB2F00FB61AD /* NotesVc.swift in Sources */,
+				20189F9A2B28BFE900E99D37 /* ViewController.swift in Sources */,
+				722C88632B49438C002A25CE /* PartsCVC.swift in Sources */,
+				201960E12B2DC56B004079AC /* AmendmentsApiVC.swift in Sources */,
+				20189F962B28BFE900E99D37 /* AppDelegate.swift in Sources */,
+				722C885F2B4941AB002A25CE /* ArticleTVC.swift in Sources */,
+				72405CBD2B4BCD0500F8951E /* NotificationVC.swift in Sources */,
+				20B95F6F2B2B8A8B00BAAD6D /* NewsArcticleVC.swift in Sources */,
+				20B95F6A2B2B87CC00BAAD6D /* AmendentsVC.swift in Sources */,
+				20FDC2B12B2A2BFD008A2704 /* PartsVC.swift in Sources */,
+				20B95F642B2B7E5F00BAAD6D /* SchedulesVC.swift in Sources */,
+				20B95F6D2B2B88A100BAAD6D /* AmendentsCVC.swift in Sources */,
+				72CB671D2B47F67000E1DE0A /* SideMenuVC.swift in Sources */,
+				20B95F662B2B820F00BAAD6D /* SchudulesCVC.swift in Sources */,
+				20FDC2AD2B2A0BCD008A2704 /* headerTVC.swift in Sources */,
+				20189FB42B28C97300E99D37 /* DashBoardViewController.swift in Sources */,
+				20189FA02B28BFE900E99D37 /* ConstitutionOfIndia.xcdatamodeld in Sources */,
+				72017A352B4AA542008B3B01 /* SideMenuTVC.swift in Sources */,
+				20189F982B28BFE900E99D37 /* SceneDelegate.swift in Sources */,
+				20FDC2A82B2A040C008A2704 /* PreambleVC.swift in Sources */,
+				20189FB02B28C33900E99D37 /* ViewController2.swift in Sources */,
+				722C88682B496D79002A25CE /* NewsArcticleApiVC.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		20189F9B2B28BFE900E99D37 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				20189F9C2B28BFE900E99D37 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		20189FA32B28BFEA00E99D37 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				20189FA42B28BFEA00E99D37 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		20189FA72B28BFEA00E99D37 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		20189FA82B28BFEA00E99D37 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		20189FAA2B28BFEA00E99D37 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 363E389CCA4E036BC326CEEE /* Pods-ConstitutionOfIndia.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ConstitutionOfIndia/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.trycatch.ConstitutionOfIndia;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		20189FAB2B28BFEA00E99D37 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DA2665E079E772093564B9D8 /* Pods-ConstitutionOfIndia.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ConstitutionOfIndia/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.trycatch.ConstitutionOfIndia;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		20189F8D2B28BFE900E99D37 /* Build configuration list for PBXProject "ConstitutionOfIndia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20189FA72B28BFEA00E99D37 /* Debug */,
+				20189FA82B28BFEA00E99D37 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		20189FA92B28BFEA00E99D37 /* Build configuration list for PBXNativeTarget "ConstitutionOfIndia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20189FAA2B28BFEA00E99D37 /* Debug */,
+				20189FAB2B28BFEA00E99D37 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		20189F9E2B28BFE900E99D37 /* ConstitutionOfIndia.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				20189F9F2B28BFE900E99D37 /* ConstitutionOfIndia.xcdatamodel */,
+			);
+			currentVersion = 20189F9F2B28BFE900E99D37 /* ConstitutionOfIndia.xcdatamodel */;
+			path = ConstitutionOfIndia.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 20189F8A2B28BFE900E99D37 /* Project object */;
+}
